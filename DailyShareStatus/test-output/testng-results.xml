@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10014" started-at="2021-03-08T20:15:13Z" finished-at="2021-03-08T20:15:23Z">
+  <suite name="Default suite" duration-ms="9415" started-at="2021-03-27T17:10:54Z" finished-at="2021-03-27T17:11:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10014" started-at="2021-03-08T20:15:13Z" finished-at="2021-03-08T20:15:23Z">
-      <class name="com.TestCases.TestCase_001">
-        <test-method status="PASS" signature="PlayDriver()[pri:0, instance:com.TestCases.TestCase_001@3ee0fea4]" name="PlayDriver" is-config="true" duration-ms="9990" started-at="2021-03-08T20:15:13Z" finished-at="2021-03-08T20:15:23Z">
+    <test name="Default test" duration-ms="9415" started-at="2021-03-27T17:10:54Z" finished-at="2021-03-27T17:11:04Z">
+      <class name="com.TestCases.TestRunnerClass">
+        <test-method status="PASS" signature="PlayDriver()[pri:0, instance:com.TestCases.TestRunnerClass@3d299e3]" name="PlayDriver" is-config="true" duration-ms="4554" started-at="2021-03-27T17:10:54Z" finished-at="2021-03-27T17:10:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PlayDriver -->
-        <test-method status="PASS" signature="GetGainRecords()[pri:0, instance:com.TestCases.TestCase_001@3ee0fea4]" name="GetGainRecords" duration-ms="16" started-at="2021-03-08T20:15:23Z" finished-at="2021-03-08T20:15:23Z">
+        <test-method status="PASS" signature="getStockDetails()[pri:0, instance:com.TestCases.TestRunnerClass@3d299e3]" name="getStockDetails" duration-ms="28" started-at="2021-03-27T17:10:59Z" finished-at="2021-03-27T17:10:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetGainRecords -->
-      </class> <!-- com.TestCases.TestCase_001 -->
+        </test-method> <!-- getStockDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCases.TestRunnerClass@3d299e3]" name="tearDown" is-config="true" duration-ms="4783" started-at="2021-03-27T17:10:59Z" finished-at="2021-03-27T17:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCases.TestRunnerClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
