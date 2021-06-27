@@ -5,6 +5,8 @@
     <classes>
       <class name="com.TestCases.TestRunnerClass"/>
       <class name="com.TestCases.BaseClass"/>
+      
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
