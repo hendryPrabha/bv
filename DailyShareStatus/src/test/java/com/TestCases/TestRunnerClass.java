@@ -6,6 +6,7 @@ public class TestRunnerClass extends BaseClass {
 @Test
 	public void getStockDetails() {
 		
-		System.out.println(driver.getTitle());
+		String title=driver.getTitle();
+		System.out.println(title);
 	}
 }
